@@ -21,3 +21,19 @@ $ conda create -n mini-rag-app python=3.8
 ```bash
 $ conda activate mini-rag-app
 ```
+
+## installation
+
+### install the required packages
+
+```bash
+$ pip install -r requirements.txt
+
+```
+### setup you enviroment variables 
+
+```bash
+$ cp .env_copy .env
+```
+
+set your enviroment variables int the `env` file, like `GOOGLE_API_KEY` value.
