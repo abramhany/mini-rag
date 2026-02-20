@@ -37,3 +37,12 @@ $ cp .env_copy .env
 ```
 
 set your enviroment variables int the `env` file, like `GOOGLE_API_KEY` value.
+
+
+### run the fastapi server 
+
+```bash 
+
+$ uvicorn main:app --reload --host 0.0.0.0 --port 5000
+
+```
