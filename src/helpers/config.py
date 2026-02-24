@@ -10,6 +10,7 @@ class settings(BaseSettings):
     GOOGLE_API_KEY : str
     FILE_ALLOWED_TYPES : list
     FILE_MAX_SIZE : int
+    FILE_DEFUALT_CHUNK_SIZE : int
 
     
 
