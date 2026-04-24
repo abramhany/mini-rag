@@ -4,12 +4,12 @@ class LLMInterface(ABC):
 
     @classmethod
     @abstractmethod
-    def select_llm_model(self,model_name:str):
+    def llm_model(self,llm_model_id:str):
         pass
 
     @classmethod
     @abstractmethod
-    def select_embedding_model(self,model_name:str):
+    def select_embedding_model(self,model_id:str,embedding_size:int):
         pass
 
     @classmethod
@@ -19,7 +19,7 @@ class LLMInterface(ABC):
 
     @classmethod
     @abstractmethod    
-    def embeding_text(self,text:str,doc_type:str):
+    def embedding_text(self,text:str,doc_type:str):
         pass
 
     @classmethod
